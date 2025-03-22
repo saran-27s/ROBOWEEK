@@ -1,7 +1,7 @@
 # ROBOWEEK
 BlockChain application for ethereum fraud detection.
 
-#C**ryptoTrace**
+**CryptoTrace**
 
 CryptoTrace is a cryptocurrency transaction analysis tool designed to analyze and visualize cryptocurrency transactions, particularly focusing on Ethereum. The tool includes features for transaction analysis, visualization, PDF report generation, and suspicious activity detection.
 
