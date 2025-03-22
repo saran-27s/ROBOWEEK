@@ -1,14 +1,18 @@
 # ROBOWEEK
 BlockChain application for ethereum fraud detection.
-CryptoTrace
+
+#C**ryptoTrace**
+
 CryptoTrace is a cryptocurrency transaction analysis tool designed to analyze and visualize cryptocurrency transactions, particularly focusing on Ethereum. The tool includes features for transaction analysis, visualization, PDF report generation, and suspicious activity detection.
 
-Features
+**Features**
+
 Transaction Analysis: Analyze transactions for suspicious patterns.
 Visualization: Generate spider maps and charts to visualize transaction flows.
 PDF Report Generation: Generate detailed reports with visualizations and analyses.
 Suspicious Activity Detection: Identify and flag suspicious transactions.
-Installation
+
+**Installation**
 Clone the repository: bash git clone https://github.com/username/CryptoTrace.git cd CryptoTrace
 
 Install dependencies: bash pip install -r requirements.txt
@@ -17,7 +21,7 @@ Set up the database: bash python manage.py migrate
 
 Run the server: bash python manage.py runserver
 
-Usage
+**Usage**
 Home Page: Navigate to the home page to input wallet addresses and view analysis results.
 
 Transaction Analysis: Input a wallet address and date range to fetch and analyze transactions.
@@ -26,7 +30,8 @@ Visualization: View spider maps and charts to understand transaction flows and c
 
 PDF Report: Generate a detailed PDF report of the analysis.
 
-Contributing
+**Contributing**
+
 Contributions are welcome! Please submit a pull request or open an issue for any improvements or bug fixes. Technologies Used Frontend HTML, CSS, JavaScript: Core web technologies for structuring, styling, and scripting the user interface. Django Templates: Used for rendering HTML pages dynamically. JavaScript Libraries: Utilized for data visualization (e.g., PyVis for interactive graphs). Backend Django: High-level Python web framework for building the backend. Python: Programming language used for backend development and data processing. PyVis: Python library for creating interactive network visualizations. NetworkX: Python package for creating and analyzing complex networks. Data Fetching Using Etherscan API API Integration:
 
 Integrated Etherscan API by constructing requests to fetch transaction data. Used the requests library in Python to handle API calls. Fetching Transactions:
